@@ -5,12 +5,10 @@ import ColorSelector from './ColorSelector.js'
 
 export default class Matrix extends Component {
 
-  constructor() {
-    super()
-    this.state = {
+  state = {
       selectedColor: '#FFBCBC'
-    }
   }
+  
 
   setSelectedColor = (newColor) => {
     this.setState({
