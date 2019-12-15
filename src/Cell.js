@@ -12,7 +12,7 @@ export default class Cell extends Component {
       color: this.props.selectedColor
     })
   }
-
+// Making some changes
   render() {
     return (
       <div onClick={this.handleClick} className="cell"
